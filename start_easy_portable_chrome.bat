@@ -1,1 +1,1 @@
-start python .\Easy_Portable_Chrome.py
+start python .\easy_portable_chrome.py
