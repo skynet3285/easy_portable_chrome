@@ -2,13 +2,13 @@
 
 ## 구성 요소
 
-`start_easy_portable_chrome.bat` : 설치된 크롬을 가져와서 포터블 크롬으로 만듭니다.
+`easy_portable_chrome.bat` : `easy_portable_chrome.py`를 실행합니다. 설치된 크롬을 가져와서 포터블 크롬으로 만듭니다.
 
 `start_portable_chrome.bat` : 포터블 크롬을 실행합니다.
 
 ## 사용 방법
 
-`start_easy_portable_chrome.bat`를 실행하면 C 드라이브 기본 경로에 설치된 크롬 감지합니다.
+`easy_portable_chrome.bat`를 실행하면 C 드라이브 기본 경로에 설치된 크롬 감지합니다.
 
 설치된 크롬을 Portable Chrome에 가져오겠습니까? [y/n] : y를 선택하면 현재 디렉토리로 가져올 수 있습니다.
 
