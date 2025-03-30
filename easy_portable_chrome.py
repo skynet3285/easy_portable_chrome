@@ -57,7 +57,8 @@ if __name__ == '__main__':
     current_dir = os.getcwd()
     application_dir = build_path(current_dir, 'Application')
 
-    home_dir = build_path(os.path.expanduser("~"), 'AppData', 'Local', 'Google', 'Chrome')
+    # home_dir = build_path(os.path.expanduser("~"), 'AppData', 'Local', 'Google', 'Chrome')
+    home_dir = build_path(os.environ["ProgramFiles"], 'Google', 'Chrome')
     chrome_application_dir = build_path(home_dir, 'Application')
 
     print('Easy Portable Chrome v1.0')
